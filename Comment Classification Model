@@ -1,0 +1,69 @@
+**Training a Comment Classification Model**
+
+**Project Status: Completed**
+
+**Project Description**
+
+The online store "Wikishop" is launching a new service where users can edit and supplement product descriptions, similar to wiki communities. Customers can propose their edits and comment on the changes made by others. The store needs a tool that will identify toxic comments and send them for moderation.
+
+**Data Description**
+
+The data is located in the file `toxic_comments.csv`. The feature `text` contains the comment text, and `toxic` is the target feature.
+
+**Project Tasks**
+
+Train a model to classify comments as positive or negative with an F1 score of at least 0.75. We have a dataset labeled for the toxicity of edits.
+
+**Tools Used**
+
+- Python
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Gs
+- Os
+- Pickle
+- Requests
+- String
+- WordCloud
+- Tqdm
+- PyTorch
+- Transformers
+- Scipy
+- Nltk
+- Xgboost
+- Catboost
+- Lightgbm
+- BERT
+
+**Work Plan:**
+
+1. Prepare data for machine learning.
+2. Create several types of ML models.
+3. Select the best algorithm based on the F1 metric; use it to make predictions on the test set and calculate the control metric.
+4. Summarize the work done.
+
+**Research Results**
+
+In this project, we:
+
+- Loaded and described the data.
+- Prepared the data for machine learning using the following methods:
+  - Created embeddings from the available data with BERT.
+  - Formed a text corpus using the TF-IDF method.
+  - Visualized our data, which allowed us to anticipate the behavior of machine learning algorithms.
+- Chose 4 machine learning models:
+  - Linear models: Logistic Regression and LinearSVC
+  - Random Forest and XGBClassifier
+- Evaluated their performance using F1 values from cross-validation.
+- Tested the best model on the test set and compared it with a constant prediction.
+
+The best model, Logistic Regression, showed:
+
+- F1 on the test set: 0.79
+- Precision on the test set: 0.78
+- Recall on the test set: 0.79
+
+The analysis results indicate that our trained model is effective and can be used by the "Wikishop" online store to identify toxic comments. This will be an important tool for improving customer service standards.
