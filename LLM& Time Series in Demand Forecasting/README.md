@@ -1,4 +1,4 @@
-# [Integration of Large Language Models and Time Series Analysis in Demand Forecasting for E-Commerce](https://github.com/)
+# [Integration of Large Language Models and Time Series Analysis in Demand Forecasting for E-Commerce]([https://github.com/](https://github.com/ZhannaUp/ML-AI_projects/blob/main/LLM%26%20Time%20Series%20in%20Demand%20Forecasting/LLM_%26_Time_Series_for_forecasting_.ipynb))
 ________
 ## Project Status - Completed.
 
