@@ -1,0 +1,42 @@
+# Data manipulation
+pandas>=1.5.0                  # For working with tables, time series, and data merging
+numpy>=1.23.0                  # For numerical operations and arrays
+scipy>=1.10.0                  # For statistical functions and numerical computations
+glob2>=0.7                     # For working with file patterns and loading multiple CSVs
+
+# Machine learning
+scikit-learn>=1.2.0            # Preprocessing, metrics, and machine learning models
+xgboost>=1.7.0                 # Gradient boosting for regression tasks
+
+# Time series modeling
+prophet>=1.1                   # Meta's Prophet model for time series forecasting
+
+# Topic modeling and NLP
+bertopic>=0.15.0               # BERTopic model for extracting topics from reviews
+sentence-transformers>=2.2.0  # Text embeddings used in BERTopic
+nltk>=3.8                      # Natural Language Toolkit for basic NLP processing
+spacy>=3.5.0                   # Advanced NLP library for tokenization and lemmatization
+umap-learn>=0.5.3              # Dimensionality reduction used in BERTopic
+hdbscan>=0.8.29                # Clustering algorithm used by BERTopic
+
+# Visualization
+matplotlib>=3.6.0              # For plotting data and visualizations
+seaborn>=0.12.0                # Stylish plots built on top of matplotlib
+plotly>=5.10.0                 # Interactive visualizations (e.g., trends, seasonality)
+
+# Utilities
+joblib>=1.2.0                  # Saving and loading models
+tqdm>=4.64.0                   # Progress bars for loops
+ipywidgets>=8.0.0              # Interactive widgets in Jupyter
+holidays>=0.24                 # For working with holiday calendars (e.g. Russian holidays)
+
+# HTTP requests
+requests>=2.28.0               # For making HTTP requests to APIs or external services
+
+# For LLMs and OpenAI API usage
+openai>=1.0.0                  # For using GPT or other OpenAI models
+python-dotenv>=1.0.0           # For loading API keys from a .env file
+
+# Jupyter environment
+notebook>=6.5.0                # Basic Jupyter Notebook support
+jupyterlab>=3.5.0              # Enhanced Jupyter interface
