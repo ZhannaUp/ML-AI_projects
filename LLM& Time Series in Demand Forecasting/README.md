@@ -79,3 +79,12 @@ Lag, rolling average, calendar-based variables
 <p class="aligncenter">
   <img src="https://ibb.co/vCVMFc2N"><img src="https://i.ibb.co/DPzjJ13B/result.png" width="1000">
 </p>
+________
+
+## Acknowledgements
+Special thanks to [Sanjana Sanjeev Deshpande](https://github.com/sanjana3014), my teammate, for the preprocessing efforts and project collaboration.
+
+________
+## License
+MIT License — Free to use, share and modify with attribution.
+
